@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    android:orientation="vertical" >
+    <include
+  android:layout_width="fill_parent"
+  android:layout_height="40dip"
+  layout="@layout/base_title"/>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="间隔时间"
+	        />
+	    <SeekBar 
+	    android:paddingTop="10dp"
+	    android:id="@+id/progress_seek1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:indeterminateDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/volumeknob"
+        android:thumbOffset="0dp"
+	    />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="连接数"
+	        />
+	    <SeekBar 
+	    android:paddingTop="10dp"
+	    android:id="@+id/progress_seek2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:indeterminateDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/volumeknob"
+        android:thumbOffset="0dp"
+	    />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/tile_bg"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<include android:layout_width="fill_parent" android:visibility="gone"
+		android:layout_height="40dip" android:id="@+id/map_top" layout="@layout/base_title" />
+	<TableLayout android:layout_width="fill_parent" android:id="@+id/map_rela"
+		android:layout_height="wrap_content" android:visibility="visible"
+		android:layout_below="@id/map_top" android:stretchColumns="0,1,2,3,4">
+		<TableRow>
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/beatiful_imgbtn1"
+				android:text="搜索附近" android:gravity="center" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:text="别处" android:id="@+id/beatiful_imgbtn2" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:text="驾车" android:id="@+id/beatiful_imgbtn3" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:text="步行" android:id="@+id/beatiful_imgbtn4" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:text="公交" android:id="@+id/beatiful_imgbtn5" />
+		</TableRow>
+	</TableLayout>
+	<com.baidu.mapapi.MapView
+		android:layout_below="@id/map_rela" android:id="@+id/beatiful_map"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:clickable="true" />
+</RelativeLayout>

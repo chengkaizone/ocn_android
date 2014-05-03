@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="east_layout_mwv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+	<style name="east_common_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gray_divider2</item>
+    </style>
+	<style name="east_spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:layout_marginLeft">20dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:paddingLeft">30dip</item>
+        <item name="android:background">@drawable/spinner_selector</item>
+    </style>
+	<style name="comment_toolbar_style">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+	<style name="text_title">
+		<item name="android:textSize">18sp</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="text_black_stitle">
+		<item name="android:textSize">15sp</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/light_black</item>
+	</style>
+	<style name="text_black_title">
+		<item name="android:textSize">15sp</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/light_black</item>
+	</style>
+	<style name="text_black_ptitle">
+		<item name="android:textSize">15sp</item>
+		<item name="android:paddingLeft">10dip</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/light_black</item>
+	</style>
+	<style name="text_black_ensure_head">
+		
+		<item name="android:background">@drawable/text_black_ensure_head</item>
+		<item name="android:paddingTop">6dip</item>
+		<item name="android:paddingBottom">6dip</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:paddingLeft">10dip</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/light_black</item>
+	</style>
+	<style name="text_black_big_title">
+		<item name="android:textSize">18sp</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/light_black</item>
+	</style>
+	<style name="column_item_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/column_item_color</item>
+    </style>
+	<style name="topcomment_content_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="main_title_style">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/main_title_color</item>
+    </style>
+    <style name="NeteaseSmallProgressBar">
+        <item name="android:maxWidth">20.0dip</item>
+        <item name="android:maxHeight">20.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/loadingsmall</item>
+        <item name="android:minWidth">20.0dip</item>
+        <item name="android:minHeight">20.0dip</item>
+    </style>
+    <style name="column_title_style">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="topcomment_desc_style">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="comment_username_style">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff364b61</item>
+    </style>
+	<style name="loadingbar">
+		<item name="android:maxWidth">40.0dip</item>
+		<item name="android:minWidth">40.0dip</item>
+		<item name="android:maxHeight">40.0dip</item>
+		<item name="android:minHeight">40.0dip</item>
+		<item name="android:indeterminateDrawable">@anim/loadingbar</item>
+	</style>
+	<style name="loadingbarbig">
+		<item name="android:maxWidth">60.0dip</item>
+		<item name="android:minWidth">60.0dip</item>
+		<item name="android:maxHeight">60.0dip</item>
+		<item name="android:minHeight">60.0dip</item>
+		<item name="android:indeterminateDrawable">@anim/loadingbar</item>
+	</style>
+	<style name="menu_animation" parent="@android:style/Animation">
+		<item name="android:windowEnterAnimation">@anim/anim_down_in</item>
+		<item name="android:windowExitAnimation">@anim/anim_down_out</item>
+	</style>
+	<style name="list_title_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/list_title_color</item>
+        </style>
+	<style name="list_title_style1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/list_title_color</item>
+        </style>
+    <style name="loadingbar_gray_normal">
+		<item name="android:maxWidth">40dip</item>
+		<item name="android:minWidth">40dip</item>
+		<item name="android:maxHeight">40dip</item>
+		<item name="android:minHeight">40dip</item>
+		<item name="android:indeterminateDrawable">@anim/loadingbar</item>
+	</style>
+</resources>

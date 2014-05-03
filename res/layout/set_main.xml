@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/tile_bg" android:orientation="vertical"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<include android:layout_width="fill_parent"
+		android:layout_height="40dip" layout="@layout/base_title" />
+	<Button android:textAppearance="@style/list_title_style"
+		android:id="@+id/set_pass_button" android:background="@drawable/east_big_button"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip"
+		android:layout_marginRight="10.0dip" android:text="设置密码" />
+	<Button android:textAppearance="@style/list_title_style"
+		android:id="@+id/set_update_button" android:background="@drawable/east_big_button"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="15.0dip" android:layout_marginTop="14.0dip"
+		android:layout_marginRight="10.0dip" android:text="更新版本" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/listview_selector"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <ImageView
+	android:layout_width="72dip"
+	android:layout_height="72dip"
+	android:scaleType="fitCenter"
+	android:layout_centerHorizontal="true"
+	android:layout_gravity="center_horizontal"
+	android:src="@drawable/icon1"
+	android:id="@+id/grid_item_img"/>
+	<ImageView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingBottom="3dip"
+	android:paddingRight="3dip"
+	android:id="@+id/grid_item_state"
+	android:layout_alignRight="@id/grid_item_img"
+	android:layout_alignBottom="@id/grid_item_img"
+	android:src="@drawable/status_offline"
+	android:scaleType="fitCenter"/>
+	<TextView
+	android:layout_below="@id/grid_item_img"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	style="@style/text_black_title"
+	android:gravity="center"
+	android:layout_centerHorizontal="true"
+	android:id="@+id/grid_item_desc"
+	android:text="签约"/>
+</RelativeLayout>

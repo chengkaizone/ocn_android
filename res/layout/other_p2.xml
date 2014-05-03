@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <include
+  android:layout_width="fill_parent"
+  android:layout_height="40dip"
+  layout="@layout/base_title"/>
+<ScrollView
+  android:background="@color/white"
+	android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  android:orientation="vertical"
+  android:padding="0dip"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  style="@style/text_black_ensure_head"
+  android:text="操作备注(*):"/>
+  <EditText
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:minLines="2"
+  android:gravity="top|left"
+  android:padding="5dip"
+  android:layout_margin="10dip"
+  android:background="@drawable/east_edit_login"
+  android:id="@+id/other2_input"/>
+  <Button style="@style/list_title_style" 
+	android:id="@+id/other2_toggle_button" android:background="@drawable/east_big_button"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip" android:layout_marginTop="6dip"
+	android:layout_marginRight="10dip" android:text="确定"
+	android:layout_gravity="center_horizontal"
+	/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

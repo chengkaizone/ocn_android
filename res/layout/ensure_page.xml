@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/tile_bg"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <include
+  android:layout_width="fill_parent"
+  android:layout_height="40dip"
+  layout="@layout/base_title"/>
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <Button style="@style/list_title_style" 
+  	android:layout_gravity="center_horizontal|bottom"
+	android:id="@+id/ensure_button" android:background="@drawable/east_big_button"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip" android:layout_marginTop="6dip"
+	android:layout_marginRight="10dip" android:text="确定"
+	/>
+	 </RelativeLayout>
+</LinearLayout>

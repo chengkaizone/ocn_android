@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/text_black_title"
+  android:text="业务类型(*)"/>
+  <Spinner
+  style="@style/east_spinner_style"
+  android:entries="@array/businesss"
+  android:id="@+id/order_back_business_sp"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  style="@style/text_black_ensure_head"
+  android:text="用户室内终端信号指标(*必填)"/>
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/order_back_dll_sn"
+  android:orientation="vertical">
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  style="@style/text_black_ensure_head"
+  android:text="楼道分支TAP信号(*必填)"/>
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/order_back_dll_ld"
+  android:orientation="vertical">
+  </LinearLayout>
+</LinearLayout>
+</ScrollView>

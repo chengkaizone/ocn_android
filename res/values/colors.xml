@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#ff000000</color>
+	<color name="red">#ffff0000</color>
+	<color name="white">#ffffffff</color>
+	<color name="gray">#808080</color>
+	<color name="blue">#0000ff</color>
+	<color name="gray_white">#ffecedee</color>
+	<color name="lightblue">#87CEFA</color>
+	<color name="deepskyblue">#00BFFF</color>
+	<color name="sliver">#C0C0C0</color>
+	<color name="darkgray">#A9A9A9</color>
+	<color name="brown">#F4A460</color>
+	<color name="wheat">#F5DEB3</color>
+	<color name="moccasin">#FFE4B5</color>
+	<color name="green">#ff00ff00</color>
+	<color name="light_black">#cc000000</color>
+	<color name="list_tag_color">#ffe5ebf4</color>
+	<color name="top_text_color">#ffe5ebf4</color>
+    <color name="night_top_text_color">#ff525252</color>
+    <color name="slider_front">#ffe5e7e9</color>
+    <color name="slider_back">#ff585d5e</color>
+    <color name="night_slider_front">#ff7c7c7c</color>
+    <color name="night_slider_back">#ff5a5d60</color>
+    <color name="main_title_color">#fff1f2f4</color>
+    <color name="main_bg_color">#ffecedee</color>
+    <color name="menu_text_color">#ff000000</color>
+    <color name="menu_layout_bg_color">#ffc9cccd</color>
+    <color name="list_title_color">#ff000000</color>
+</resources>

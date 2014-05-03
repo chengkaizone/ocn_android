@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="60dip"
+  android:background="@drawable/ensure_top"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+	android:layout_centerVertical="true"
+  android:paddingLeft="6dip"
+  style="@style/text_black_title"
+  android:text="请确认回单信息"/>
+  <Button 
+	android:id="@+id/order_back_save" 
+	android:layout_width="102dip"
+	android:layout_height="40dip"
+	android:layout_marginRight="10dip"
+	android:text="提交回单"
+	android:background="@drawable/east_big_button"
+	android:layout_centerVertical="true"
+	android:layout_alignParentRight="true"
+	/>
+	</RelativeLayout>
+<ScrollView
+	android:fadingEdge="none"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  android:orientation="vertical"
+  
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="故障"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="故障相关"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc1"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="辅料"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="辅料相关"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc2"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="回单备注"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="备注信息"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc3"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="是否NGB区域"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="是"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc4"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:text="业务类型"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc5"
+  />
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  style="@style/text_black_ensure_head"
+  android:text="用户室内终端信号指标"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="室内"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc6"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="楼道分支TAP信号"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="楼道"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc7"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+  <LinearLayout style="@style/east_layout_mwv">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="评价"
+  style="@style/text_black_ensure_head"
+  />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="满意"
+  style="@style/text_black_ptitle"
+  android:id="@+id/order_ensure_desc8"/>
+  </LinearLayout>
+  <ImageView style="@style/east_common_line"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

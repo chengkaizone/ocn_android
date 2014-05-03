@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/tile_bg"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <include
+  android:layout_width="fill_parent"
+  android:layout_height="40dip"
+  layout="@layout/base_title"/>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  style="@style/text_black_title"
+  android:text="维修单页面"/>
+  <Button style="@style/list_title_style"
+	android:id="@+id/login_button" android:background="@drawable/east_big_button"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_marginLeft="15.0dip" android:layout_marginTop="14.0dip"
+	android:gravity="center"
+	android:layout_marginRight="10.0dip" android:text="确定" />
+</LinearLayout>

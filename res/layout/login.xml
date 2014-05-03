@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/tile_bg" android:orientation="vertical">
+	<include
+	android:layout_width="fill_parent"
+	android:layout_height="40dip"
+	android:id="@+id/login_include"
+	layout="@layout/base_title"/>
+	<RelativeLayout android:paddingTop="14.0dip" android:layout_below="@id/login_include"
+		android:paddingBottom="7.0dip" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+		android:layout_marginTop="7.0dip" android:layout_marginRight="10.0dip">
+		<EditText android:id="@+id/loginusername" android:background="@drawable/east_edit_login"
+			android:paddingLeft="60.0sp" android:saveEnabled="true"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip"
+			android:layout_marginRight="5.0dip" android:layout_marginBottom="3.0dip"
+			android:hint="请输入员工帐号" android:layout_alignParentTop="true"
+			android:maxEms="5"
+			android:inputType="textEmailAddress" />
+		<TextView android:textSize="16.0dip" android:textColor="@color/black"
+			android:gravity="center_vertical" android:id="@+id/TextView01"
+			android:paddingLeft="15.0sp" android:layout_width="70.0dip"
+			android:layout_height="wrap_content" android:layout_marginRight="15.0sp"
+			android:text="帐号" android:layout_alignLeft="@id/loginusername"
+			android:layout_alignTop="@id/loginusername"
+			android:layout_alignBottom="@id/loginusername" />
+		<EditText android:id="@+id/loginpassword" android:background="@drawable/east_edit_login"
+			android:paddingLeft="60.0sp" android:saveEnabled="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="5.0dip" android:layout_marginRight="1.0dip"
+			android:hint="请输入员工密码" android:maxLength="16" android:layout_below="@id/loginusername"
+			android:layout_alignLeft="@id/loginusername" android:maxEms="5"
+			android:layout_alignRight="@id/loginusername" android:inputType="textPassword" />
+		<TextView android:textSize="16.0dip" android:textColor="@color/black"
+			android:gravity="center_vertical" android:id="@+id/TextView02"
+			android:paddingLeft="15.0sp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="密 码"
+			android:layout_alignLeft="@id/loginpassword" android:layout_alignTop="@id/loginpassword"
+			android:layout_alignRight="@id/TextView01"
+			android:layout_alignBottom="@id/loginpassword" />
+		<Button android:textAppearance="@style/list_title_style"
+	android:id="@+id/login_button" android:background="@drawable/east_big_button"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:layout_marginLeft="15.0dip" android:layout_marginTop="14.0dip"
+	android:layout_marginRight="10.0dip" android:text="登录"
+	android:layout_below="@id/TextView02" />
+	</RelativeLayout>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="50dip"
+	android:textSize="12sp"
+	android:layout_alignParentBottom="true"
+	android:text="东方有线工单调度系统Android客户端"
+	android:textColor="#ff0000ff"
+	android:gravity="center_horizontal|top"
+	/>
+</RelativeLayout>

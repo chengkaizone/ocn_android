@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="6dip">
+  <Button
+  android:layout_width="50dip"
+  android:layout_height="30dip"
+  android:padding="5dip"
+  android:background="@drawable/east_big_button"
+  android:text="删除"
+  android:gravity="center"
+  android:layout_alignParentRight="true"
+  android:layout_centerVertical="true"
+  android:id="@+id/material_del"/>
+  <TextView
+  android:layout_toLeftOf="@+id/material_del"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_centerVertical="true"
+  android:text="cefjsljfosgjs"
+  style="@style/text_black_title"
+  android:id="@+id/material_info"/>
+</RelativeLayout>
